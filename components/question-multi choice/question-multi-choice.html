@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="../input-text/input-text.css" />
+    <link rel="stylesheet" href="../input-dropdown/input-dropdown.css" />
+    <link rel="stylesheet" href="../_question-answer/_question-answer.css" />
+    <link rel="stylesheet" href="./question-multi-choice.css" />
+    <title>question-multi choice</title>
+  </head>
+  <body>
+    <div class="question-multiple-choice">
+      <div class="_question_base">
+        <div class="question">
+          <!-- Light, Default -->
+          <div class="default">
+            <label for="">Question</label>
+            <input
+              type="text"
+              placeholder="What do you want to ask?"
+              style="width: 271px"
+            />
+          </div>
+        </div>
+
+        <!-- divider -->
+        <hr class="divider" />
+
+        <!-- answer -->
+        <div class="answer">
+          <label for="">Answer</label>
+          <!-- input/dropdown -->
+          <div class="answer-input-dropdown">
+            <div class="frame">
+              Multiple Choice
+              <span class="glyphicon glyphicon-chevron-down color-red"></span>
+            </div>
+          </div>
+
+          <!-- <div class="question-answer"> -->
+          <!-- radio checkbox -->
+          <div class="checkbox">
+            <input
+              type="radio"
+              class="checkbox_outline"
+              name="square-check"
+              id="square-check"
+            />
+            <input
+              class="input-checkbox"
+              type="text"
+              style="width: 200px"
+              placeholder="Short answer text"
+            />
+            <button class="close"><span style="color: #414141">x</span></button>
+          </div>
+
+          <!-- radio checkbox -->
+          <div class="checkbox">
+            <input
+              type="radio"
+              class="checkbox_outline"
+              name="square-check"
+              id="square-check"
+            />
+            <input
+              class="input-checkbox"
+              type="text"
+              style="width: 200px"
+              placeholder="Short answer text"
+            />
+            <button class="close"><span style="color: #414141">x</span></button>
+          </div>
+
+          <!-- </div> -->
+        </div>
+
+        <!-- add option -->
+        <button class="add-option">+ ADD OPTION</button>
+
+        <!-- question action -->
+        <div class="question-actions">
+          <span class="page-numbers">1 of 1</span>
+          <div class="btns">
+            <span class="glyphicon move-up">&#xe113;</span>
+            <span class="glyphicon move-down">&#xe114;</span>
+            <span class="glyphicon remove">&#xe020;</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

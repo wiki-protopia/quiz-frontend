@@ -1,0 +1,189 @@
+/* input/stepper */
+.input-stepper {
+  box-sizing: border-box;
+
+  position: relative;
+  width: 276px;
+  height: 92px;
+
+  /* Fueled White */
+  background: #f5f5f1;
+  border: 1px dashed #7b61ff;
+  border-radius: 5px;
+
+  margin: 10px;
+}
+
+/* label=false */
+.label-false {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 24px;
+
+  position: absolute;
+  width: 114px;
+  height: 40px;
+  left: 16px;
+  top: 36px;
+
+  /* White */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+/* icon-minus */
+.icon-minus {
+  width: 16px;
+  height: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* minus */
+.minus {
+  position: absolute;
+  left: 15.91%;
+  right: 15.91%;
+  top: 45.45%;
+  bottom: 45.45%;
+
+  /* Fueled Red */
+  background: #ae0000;
+
+  width: 10.91px;
+  height: 1.45px;
+  /* top: 7.27px;
+  left: 2.55px; */
+  gap: 0px;
+  opacity: 0px;
+}
+
+/* 6 */
+.text {
+  width: 10px;
+  height: 16px;
+
+  font-family: "GT Cinetype";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  /* or 20px */
+  display: flex;
+  align-items: center;
+
+  /* Fueled Dark Grey */
+  color: #161616;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* icon-plus */
+.icon-plus {
+  width: 16px;
+  height: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* Plus */
+.plus {
+  position: absolute;
+  left: 15.91%;
+  right: 15.91%;
+  top: 15.91%;
+  bottom: 15.91%;
+
+  /* Fueled Red */
+  /* background: #AE0000; */
+  color: #ae0000;
+}
+
+/* label=true */
+.label-true {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 114px;
+  height: 60px;
+  left: 146px;
+  top: 16px;
+}
+
+/* Label */
+
+label {
+  width: 31px;
+  height: 12px;
+
+  font-family: "GT Cinetype";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+  display: flex;
+  align-items: flex-end;
+
+  /* Black */
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
+}
+
+/* input/stepper-label */
+.input-stepper-label {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 24px;
+
+  width: 114px;
+  height: 40px;
+
+  /* White */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+span {
+  color: #ae0000;
+}

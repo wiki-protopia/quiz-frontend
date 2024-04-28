@@ -1,0 +1,109 @@
+/* navbar/basic */
+.navbar-basic {
+  position: relative;
+  width: 1152px;
+  height: 72px;
+
+  /* Fueled Red */
+  background: #ae0000;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.16);
+}
+
+/* Fueled Emblem */
+img {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 12px;
+  top: calc(50% - 48px / 2);
+}
+
+/* tom@fueled.com */
+span.user {
+  position: absolute;
+  width: 95px;
+  height: 12px;
+  right: 110px;
+  top: calc(50% - 12px / 2);
+
+  font-family: 'GT Cinetype';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  /* identical to box height, or 12px */
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* Fueled White */
+  color: #f5f5f1;
+
+  opacity: 0.72;
+}
+
+/* title */
+span.title {
+  position: absolute;
+  width: 195px;
+  height: 26px;
+  left: calc(50% - 195px / 2 + 0.5px);
+  top: calc(50% - 26px / 2);
+
+  /* Fueled H5 */
+  font-family: 'GT Cinetype';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+  color: #ffffff;
+}
+
+/* button */
+button {
+  /* button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+
+  position: absolute;
+  /* width: 66px; */
+  height: 30px;
+  right: 20px;
+  top: calc(50% - 30px / 2);
+
+  background: rgba(245, 245, 241, 0.2);
+
+  border: none;
+  outline: none;
+
+  /* Button text */
+  font-family: 'GT Cinetype';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  /* identical to box height, or 108% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

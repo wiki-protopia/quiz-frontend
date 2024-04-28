@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../_input_base/_input_base.css" />
+    <link rel="stylesheet" href="../input-text/input-text.css" />
+    <link rel="stylesheet" href="../button/button.css" />
+
+    <link rel="stylesheet" href="./_question-answer.css" />
+    <title>_question-answer</title>
+  </head>
+  <body>
+    <div class="question-answer">
+      <!-- short answer -->
+      <div class="short-answer">
+        <input
+          class="base"
+          type="text"
+          style="width: 300px"
+          placeholder="Short answer text"
+        />
+      </div>
+
+      <!-- paragraph -->
+      <div class="paragraph">
+        <textarea
+          class="input-paragraph"
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Paragraph"
+        ></textarea>
+      </div>
+
+      <!-- square checkbox -->
+      <div class="checkbox">
+        <input
+          type="checkbox"
+          class="checkbox_outline"
+          name="square-check"
+          id="square-check"
+        />
+        <input
+          class="input-checkbox"
+          type="text"
+          style="width: 200px"
+          placeholder="Short answer text"
+        />
+        <button class="close">x</button>
+      </div>
+
+      <!-- radio checkbox -->
+      <div class="checkbox">
+        <input
+          type="radio"
+          class="checkbox_outline"
+          name="square-check"
+          id="square-check"
+        />
+        <input
+          class="input-checkbox"
+          type="text"
+          style="width: 200px"
+          placeholder="Short answer text"
+        />
+        <button class="close">x</button>
+      </div>
+
+      <!-- number checkbox -->
+      <div class="checkbox">
+        <span class="checkbox_outline">1.</span>
+        <input
+          class="input-checkbox"
+          type="text"
+          style="width: 200px"
+          placeholder="Short answer text"
+        />
+        <button class="close">x</button>
+      </div>
+    </div>
+  </body>
+</html>

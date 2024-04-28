@@ -1,0 +1,126 @@
+/* button */
+.button {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 40px;
+
+  position: relative;
+  width: 310px;
+  /* height: 62px;  */
+
+  /* Fueled White */
+  background: #f5f5f1;
+  border: 1px dashed #7b61ff;
+  border-radius: 5px;
+}
+
+/* Type=Primary, State=Default, Size=Small, Icon=off */
+.icon-off {
+  /* Type=Primary, State=Default, Size=Small, Icon=off */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 10px;
+
+  /* width: 92px;
+  height: 30px; */
+
+  /* Fueled Red */
+  background: #ae0000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Button text */
+.button-text {
+  /* Button text */
+
+  width: 76px;
+  height: 13px;
+
+  font-family: "GT Cinetype";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  /* identical to box height, or 108% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* White */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+button {
+  color: white;
+  border: 0;
+  outline: 0;
+}
+
+/* Type=Primary, State=Default, Size=Small, Icon=on */
+.icon-on {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  /* 
+  width: 114px;
+  height: 30px; */
+
+  /* Fueled Red */
+  background: #ae0000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.icon {
+  /* icon */
+
+  width: 14px;
+  height: 14px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  color: white;
+}
+
+.plus {
+  /* Plus */
+
+  position: absolute;
+  left: 15.91%;
+  right: 15.91%;
+  top: 15.91%;
+  bottom: 15.91%;
+
+  /* White */
+  background: #ffffff;
+}

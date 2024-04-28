@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./components/navbar/navbar.css" />
+    <link rel="stylesheet" href="./components/input-text/input-text.css" />
+    <link rel="stylesheet" href="./components/_input_base/_input_base.css" />
+    <link rel="stylesheet" href="./components/button/button.css" />
+    <!-- <link rel="stylesheet" href="./components/input-dropdown/input-dropdown.css" /> -->
+    <!-- <link rel="stylesheet" href="./components/_question-answer/_question-answer.css" /> -->
+    <!-- <link rel="stylesheet" href="./components/_question_base.css" /> -->
+    <link rel="stylesheet" href="./Form.css" />
+    <title>Fueled</title>
+  </head>
+  <body>
+    <h1 class="description">CREATING/EDITING A FORM</h1>
+    <div class="form-fueled">
+      <div class="form-navbar">
+        <!-- navbar/form -->
+        <nav class="navbar-basic">
+          <div class="fueled-emblem">
+            <img src="./components/navbar/Fueled.png" alt="" />
+            <span class="title">New Questionaire</span>
+            <!-- <span>tom@fueled.com</span> -->
+            <button>LOG IN</button>
+          </div>
+        </nav>
+      </div>
+
+      <div class="content">
+        <div class="questions">
+          <div class="question-short-answer">
+            <div class="question-base">
+              <div class="question">
+                <!-- Light, Default -->
+                <div class="default">
+                  <label for="">Question</label>
+                  <input
+                    class="input-base"
+                    type="text"
+                    placeholder="What do you want to ask?"
+                    style="width: 664px"
+                  />
+                </div>
+              </div>
+
+              <!-- divider -->
+              <hr class="divider" />
+
+              <!-- answer -->
+              <div class="answer">
+                <!-- input/dropdown -->
+                <label for="">Answer</label>
+                <div class="answer-input-dropdown">
+                  <div class="frame">
+                    Multiple Choice
+                    <span
+                      class="glyphicon glyphicon-chevron-down color-red"
+                    ></span>
+                  </div>
+                </div>
+
+                <!-- short answer -->
+                <div class="short-answer-input">
+                  <div class="input-text">
+                    <input
+                      class="input-base-grey"
+                      type="text"
+                      placeholder="Short answer text"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-btns">
+          <!-- <div class="add-button"> -->
+          <button class="add-btn">+ ADD BUTTON</button>
+          <!-- </div> -->
+
+          <!-- <div class="save-button"> -->
+          <button class="save-btn">SAVE & SHARE</button>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

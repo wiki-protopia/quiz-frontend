@@ -1,0 +1,25 @@
+/* _input_base */
+input.base {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+
+  position: relative;
+  width: 343px;
+  height: 52px;
+
+  /* White */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+input.base:focus {
+  border: 1px solid #ae0000;
+  outline: none;
+  caret-color: #ae0000;
+}

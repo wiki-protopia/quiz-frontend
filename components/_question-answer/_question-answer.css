@@ -1,0 +1,175 @@
+/* _question/answer */
+.question-answer {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 68px;
+
+  position: relative;
+  width: 1709px;
+  height: 124px;
+
+  /* Fueled White */
+  background: #f5f5f1;
+  border: 1px dashed #7b61ff;
+  border-radius: 5px;
+}
+
+/* type=short answer */
+.short-answer {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+
+  width: 281px;
+  height: 92px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+/* type=paragraph */
+.paragraph {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+
+  width: 281px;
+  height: 92px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+/* input/text */
+.input-paragraph {
+  /* _input_base */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+
+  width: 281px;
+  max-width: 281px;
+  height: 92px;
+  max-height: 92px;
+
+  /* White */
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+
+  /* placeholder */
+
+  font-family: 'GT Cinetype';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  /* or 20px */
+}
+
+.input-paragraph:focus {
+  border: 1px solid #ae0000;
+  outline: none;
+  caret-color: #ae0000;
+}
+
+/* type=checkbox */
+.checkbox {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 281px;
+  height: 52px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+/* check_box_outline_blank */
+.checkbox_outline {
+  width: 24px;
+  height: 24px;
+
+  opacity: 0.4;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* input/text */
+.input-checkbox {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+
+  width: 211px;
+  height: 52px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+/* btn */
+button.close {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 7px;
+  gap: 10px;
+
+  width: 30px;
+  height: 30px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  border: none;
+  margin: none;
+  background: none;
+
+  color: #414141;
+}
